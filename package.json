@@ -1,0 +1,14 @@
+{
+    "name": "extension-name",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "author": "Luiz Bills",
+    "license": "MIT",
+    "scripts": {
+        "build": "esbuild src/index.js --bundle --minify --sourcemap --outfile=dist/dist.js"
+    },
+    "devDependencies": {
+        "esbuild": "^0.19.9"
+    }
+}
